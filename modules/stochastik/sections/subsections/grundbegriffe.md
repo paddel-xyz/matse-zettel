@@ -2,8 +2,8 @@
 title: Grundbegriffe
 ---
 
-![[Zufallsexperiment]]
-![[Ergebnismenge]]
-![[Ereignis]]
-![[Ereignisraum]]
-![[Zusammengesetzte Ereignisse]]
+![[zufallsexperiment]]
+![[ergebnismenge]]
+![[ereignis]]
+![[ereignisraum]]
+![[zusammengesetzte-ereignisse]]

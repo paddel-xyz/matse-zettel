@@ -15,7 +15,7 @@ title: Wahrscheinlichkeitsverteilung einer Zufallsvariablen
 ![[Transformation des Erwartungswertes auf eine neue Zufallsvariable"
 ![[Median]]
 ![[Quantile]]
-![[Varianz]]
+![[varianz]]
 ![[Transformation der Varianz auf eine neue Zufallsvariable"
 ![[Transformation des Erwartungswertes und der Varianz]]
 ![[Standardabweichung]]
