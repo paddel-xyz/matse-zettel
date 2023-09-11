@@ -28,19 +28,20 @@ def md2pdf(path:Path):
         
         markdown = pandoc.read(content, format="markdown")
         
-        meta = markdown[0][0]
-        title = format_meta(meta["title"])
-        author = ", ".join(format_meta(meta["author"]))
-        tags = format_meta(meta["tags"])
+        # meta = markdown[0][0]
+        # title = format_meta(meta["title"])
+        # author = ", ".join(format_meta(meta["author"]))
+        # tags = format_meta(meta["tags"])
 
-        if "module" in tags:
-            return markdown
+        # if "module" in tags:
+        return markdown
 
     module = str(path / f"""{path.name}.md""")
     latex = md2tex(module)
 
-    # latex = pandoc.read(latex, format="latex")
-    latex[0][0]["template"] = pandoc.types.MetaInlines([pandoc.types.Str("templates/module.tex")])
+    templates_path = Path(__file__).absolute().parent / "templates"
+
+    # latex[0][0]["template"] = pandoc.types.MetaInlines([pandoc.types.Str(str(templates_path / "module.tex"))])
     latex[0][0]["documentclass"] = pandoc.types.MetaInlines([pandoc.types.Str("zettel")])
     print(latex)
     pandoc.write(latex, file="./a.pdf")
