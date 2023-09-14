@@ -1,3 +1,8 @@
+# obsidian
 .obsidian/
+
+# out files
 bin/
+
+# python
 .venv/
