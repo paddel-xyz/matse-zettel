@@ -1,7 +1,7 @@
 \documentclass{zettel}
 
-\title{title}
-\author{author}
+\title{$title$}
+\author{$for(author)$$author$$sep$, $endfor$}
 \date{\today}
 
 \begin{document}
@@ -10,5 +10,7 @@
 \tableofcontents
 
 \newpage
+
+$body$
 
 \end{document}

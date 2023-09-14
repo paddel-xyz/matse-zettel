@@ -1,12 +1,13 @@
 ---
-title: MaTSe-Ausbildung
-tags:
-  - definition
+title: MATSE-Ausbildung
+type: definition
 ---
 
-[MaTSe-Ausbildung](https://www.itc.rwth-aachen.de/cms/it-center/Karriere/MATSE-Ausbildung/~letj/Ueber-MATSE/)
+Test 123
 
-![](matse.gif)
+[MATSE-Ausbildung](https://www.itc.rwth-aachen.de/cms/it-center/Karriere/MATSE-Ausbildung/~letj/Ueber-MATSE/)
+
+![](matse.png)
 
 a | b
 --|--

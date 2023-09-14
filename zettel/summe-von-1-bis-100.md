@@ -1,7 +1,6 @@
 ---
 title: Summe von 1 bis 100
-tags:
-  - exercise
+type: exercise
 ---
 
 Berechne die Summe von *1* bis *100*.

@@ -2,7 +2,6 @@
 title: Einleitung
 ---
 
-![[praeambel]]
-![[matse-ausbildung]]
+![[praeambel|Präambel]]
+![[matse-ausbildung|MATSE-Ausbildung]]
 ![[uebersicht]]
-

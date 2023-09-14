@@ -1,7 +1,6 @@
 ---
 title: Präambel
-tags:
-  - definition
+type: bonus
 ---
 
 Liebe:r Leser:in,
