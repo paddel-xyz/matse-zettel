@@ -1,7 +1,6 @@
 ---
 title: Urnenmodell
-tags: 
-  - bonus
+type: definition
 author:
   - Blaneck, Patrick Gustav
 ---

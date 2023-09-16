@@ -1,7 +1,6 @@
 ---
 title: Wahrscheinlichkeitsbaum
-tags: 
-  - exercise
+type: definition
 ---
 
 Aufgrund des Praxisbezugs des Informatik Studiums, wurden Projektarbeiten eingeführt, welche in Teams zu je vier Studenten bearbeitet werden sollen.

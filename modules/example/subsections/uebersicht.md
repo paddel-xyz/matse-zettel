@@ -2,4 +2,4 @@
 title: Übersicht
 ---
 
-- [[stochastik]]
+![[liste-aller-module]]

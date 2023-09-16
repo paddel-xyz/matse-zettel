@@ -1,7 +1,6 @@
 ---
 title: Relative Häufigkeit
-tags: 
-  - definition
+type: definition
 ---
 
 Die *relative Häufigkeit* gibt den Anteil der Elemente einer Menge wieder, bei denen eine bestimmte Merkmalsausprägung vorliegt.

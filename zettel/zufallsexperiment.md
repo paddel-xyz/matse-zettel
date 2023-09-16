@@ -1,8 +1,7 @@
 
 ---
 title: "Zufallsexperiment"
-tags: 
-  - definition
+type: definition
 ---
 
 Damit ein Experiment ein *Zufallsexperiment* ist, muss es folgende Eigenschaften aufweisen:

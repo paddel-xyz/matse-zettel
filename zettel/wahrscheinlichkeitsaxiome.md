@@ -1,7 +1,6 @@
 ---
 title: Wahrscheinlichkeitsaxiome
-tags: 
-  - definition
+type: definition
 ---
 
 Seien $A, B, E$ [[ereignis|Ereignisse]].

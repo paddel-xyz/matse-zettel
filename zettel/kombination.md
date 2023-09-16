@@ -1,7 +1,6 @@
 ---
 title: Kombination
-tags: 
-  - definition
+type: definition
 ---
 
 Eine *Kombination* oder ungeordnete [[stichprobe|Stichprobe]] ist in der Kombinatorik eine Auswahl von Objekten aus einer gegebenen Grundmenge, die (im Gegensatz zur [[permutation|Permutation]]) nicht alle Objekte der Grundmenge enthalten muss und bei der (im Gegensatz zur Permutation und [[variation|Variation]]) die Reihenfolge unberücksichtigt bleibt.

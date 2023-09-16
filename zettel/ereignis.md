@@ -1,8 +1,7 @@
 
 ---
 title: "Ereignis"
-tags: 
-  - definition
+type: definition
 ---
 
 Interessieren wir uns nicht für alle möglichen Ergebnisse des [[zufallsexperiment|Zufallsexperiments]], sondern nur für bestimmte, z. B. Würfeln einer geraden Zahl, so sprechen wir von einem *Ereignis* $\omega$.

@@ -1,7 +1,6 @@
 ---
 title: Bedingte Wahrscheinlichkeit
-tags: 
-  - definition
+type: definition
 ---
 
 In vielen Anwendungen ist das Eintreten eines [[ereignis|Ereignisses]] $A$ nicht unabhängig davon, ob vorher ein anderes Ereignis $B$ eingetreten ist oder nicht.

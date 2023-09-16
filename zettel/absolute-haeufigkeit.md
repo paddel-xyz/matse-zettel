@@ -1,7 +1,6 @@
 ---
 title: Absolute Häufigkeit
-tags: 
-  - definition
+type: definition
 ---
 
 Die *absolute Häufigkeit* ist das Ergebnis einer einfachen Zählung von Objekten oder [[ereignis|Ereignissen]] (besser: Elementarereignissen). 
