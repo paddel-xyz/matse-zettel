@@ -1,7 +1,6 @@
 ---
 title: Permutation
-tags: 
-  - definition
+type: definition
 author:
   - Blaneck, Patrick Gustav
 ---

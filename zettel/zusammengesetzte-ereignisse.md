@@ -1,7 +1,6 @@
 ---
 title: Zusammengesetzte Ereignisse
-tags: 
-  - definition
+type: definition
 ---
 
 Da [[ereignis|Ereignisse]] Teilmengen der [[ergebnismenge|Ergebnismenge]] sind, lassen sie sich auch wie Mengen verknüpfen.

@@ -1,5 +1,6 @@
 ---
 title: Variation
+type: definition
 tags: 
   - bachelor
   - definition

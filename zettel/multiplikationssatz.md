@@ -1,7 +1,6 @@
 ---
 title: Multiplikationssatz
-tags: 
-  - definition
+type: definition
 ---
 
 Löst man die Definition der [[bedingte-wahrscheinlichkeit|bedingten Wahrscheinlichkeit]] auf nach der Wahrscheinlichkeit für das gleichzeitige Eintreten zweier [[ereignis|Ereignisse]] $A$ und $B$, so ergibt sich der *Multiplikationssatz* der Wahrscheinlichkeitsrechnung:

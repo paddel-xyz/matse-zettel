@@ -1,8 +1,7 @@
 
 ---
 title: Laplace-Experiment
-tags: 
-  - definition
+type: definition
 ---
 
 Es gibt eine Reihe von [[zufallsexperiment|Zufallsexperimenten]], bei denen keines der [[ereignis|Elementarereignisse]] gegenüber einem anderen bevorzugt ist, d.h. bei ausreichend häufiger Wiederholung des Experimentes tritt jedes Elementarereignis mit nahezu gleicher Häufigkeit auf.

@@ -1,5 +1,6 @@
 ---
 title: Kombinatoriktabelle
+type: bonus
 tags: 
   - bachelor
   - bonus

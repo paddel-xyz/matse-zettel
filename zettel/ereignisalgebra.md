@@ -1,7 +1,6 @@
 ---
 title: Ereignisalgebra
-tags: 
-  - definition
+type: definition
 ---
 
 Es sei $\Omega$ eine nicht-leere Menge.

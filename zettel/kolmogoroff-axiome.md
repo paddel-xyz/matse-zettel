@@ -1,7 +1,6 @@
 ---
 title: Kolmogoroff-Axiome
-tags: 
-  - definition
+type: definition
 ---
 
 Es sei $\Omega$ eine [[ergebnismenge|Ergebnismenge]] und $S$ eine [[ereignisalgebra|Ereignisalgebra]] über $\Omega$.
