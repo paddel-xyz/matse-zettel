@@ -6,7 +6,6 @@ ressources:
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   - title: Kleiner Racker
     url: "https://images.cgames.de/images/gsgp/226/pok%C3%A9mon-glumanda_6083835.jpg"
-mermaid: true
 ---
 
 Aufgrund des Praxisbezugs des Informatik Studiums, wurden Projektarbeiten eingeführt, welche in Teams zu je vier Studenten bearbeitet werden sollen.
@@ -37,10 +36,6 @@ $$
 2. Berechnen Sie die Wahrscheinlichkeit, dass die zufällig herausgegriffene Codezeile fehlerhaft ist.
 3. Wie groß ist die Wahrscheinlichkeit, dass ein fehlerhafter Code von Teammitglied $i$ programmiert worden ist?
 
-
-
-
-
 <blockquote>
 Folgende [[ereignis|Ereignisse]] werden formuliert:
 
@@ -69,17 +64,6 @@ $$
 3. Wie groß ist die Wahrscheinlichkeit, dass ein fehlerhafter Code von Teammitglied $i$ programmiert worden ist?
 </blockquote>
 </blockquote>
-
- 
-
-
-
-
-
-
-
-
----
 
 1. Für die bedingten Fehlerwahrscheinlichkeiten gilt nach Voraussetzung:
 	$$ P(B \mid A_1) = 1.25\% $$
@@ -112,6 +96,21 @@ Alice->>+John: John, can you hear me?
 John-->>-Alice: Hi Alice, I can hear you!
 John-->>-Alice: I feel great!
 ```
+	```mermaid
+	graph
+	  Root[Start] -- 20% --> A1[Mitglied 1]
+	  Root[Start] -- 20% --> A2[Mitglied 2]
+	  Root[Start] -- 20% --> A3[Mitglied 3]
+	  Root[Start] -- 40% --> A4[Mitglied 4]
+	  A1 -- 1,25% --> !B1[Fehler]
+	  A1 -- 98,75% --> B1[OK]
+	  A2 -- 2,5% --> !B2[Fehler]
+	  A2 -- 97,5% --> B2[OK]
+	  A3 -- 5% --> !B3[Fehler]
+	  A3 -- 95% --> B3[OK]
+	  A4 -- 1,875% --> !B4[Fehler]
+	  A4 -- 98,125% --> B4[OK]
+	```
 
 2. Um zu berechnen, wie hoch die Wahrscheinlichkeit ist, dass eine herausgegriffene Codezeile fehlerhaft ist, berechnet man die Summe der Wahrscheinlichkeiten, dass eine Codezeile fehlerhaft ist und gleichzeitig von Mitglied $i$ verfasst wurde.
    $$
@@ -119,12 +118,15 @@ John-->>-Alice: I feel great!
   $$
 
 3. Um zu bestimmen, mit welcher Wahrscheinlichkeit eine fehlerhafte Codezeile von Mitglied $i$ stammt, nutzt man die [[Bayes'sche Formel|Formel von Bayes]]:
-
    $$
    P(A_i \mid B)  = \frac{P(A_i \cap B)}{P(B)}
   $$
 
-	Daraus folgt für Mitglied 1:
+   $$
+   P(A_i \mid B)  = \frac{P(A_i \cap B)}{P(B)}
+  $$
+  
+Daraus folgt für Mitglied 1:
 	$$
 		P(A_1 \mid B) = \frac{P(A_1 \cap B)}{P(B)} = \frac{0.2 \cdot 0.0125}{0.025}   = 0.1,
 	$$
