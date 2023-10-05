@@ -1,12 +1,6 @@
 ---
 title: Variation
 type: definition
-tags: 
-  - bachelor
-  - definition
-  - stochastik
-author:
-  - Blaneck, Patrick Gustav
 ---
 
 Eine *Variation* oder geordnete Stichprobe ist eine Auswahl von $k$ Objekten aus einer Menge von $n$ Objekten, wobei die Reihenfolge der Auswahl eine Rolle spielt.

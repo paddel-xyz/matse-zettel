@@ -1,4 +1,3 @@
-
 ---
 title: "Ereignisraum"
 type: definition

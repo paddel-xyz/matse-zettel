@@ -1,4 +1,3 @@
-
 ---
 title: "Ereignis"
 type: definition

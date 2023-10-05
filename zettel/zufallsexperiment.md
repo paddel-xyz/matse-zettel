@@ -1,4 +1,3 @@
-
 ---
 title: "Zufallsexperiment"
 type: definition

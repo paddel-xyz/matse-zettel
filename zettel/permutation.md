@@ -1,8 +1,6 @@
 ---
 title: Permutation
 type: definition
-author:
-  - Blaneck, Patrick Gustav
 ---
 
 Eine Anordnung von $n$ verschiedenen Elementen in einer bestimmten Reihenfolge heißt eine *Permutation* der $n$ Elemente.

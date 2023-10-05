@@ -1,12 +1,6 @@
 ---
 title: Kombinatoriktabelle
 type: bonus
-tags: 
-  - bachelor
-  - bonus
-  - stochastik
-author:
-  - Blaneck, Patrick Gustav
 ---
 
 |                                                           | ohne Wiederholung (Ziehung ohne Zurücklegen) | mit Wiederholung (Ziehung mit Zurücklegen) |

@@ -1,8 +1,9 @@
 ---
 title: Urnenmodell
-type: definition
-author:
-  - Blaneck, Patrick Gustav
+type: bonus
+ressources:
+  - title: Lustige Robbe
+    url: https://www.tiktok.com/@artngoodfeelings/video/7278015006451567918
 ---
 
 Ein *Urnenmodell* ist ein Gedankenexperiment, das in der Wahrscheinlichkeitstheorie und in der Statistik verwendet wird, um verschiedene [[zufallsexperiment|Zufallsexperimente]] auf einheitliche und anschauliche Weise zu modellieren.

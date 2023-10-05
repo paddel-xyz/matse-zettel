@@ -1,4 +1,3 @@
-
 ---
 title: Ergebnismenge
 type: definition
