@@ -1,0 +1,10 @@
+{
+  "newFileLocation": "folder",
+  "newFileFolderPath": "zettel",
+  "attachmentFolderPath": "attachments",
+  "alwaysUpdateLinks": false,
+  "livePreview": false,
+  "showLineNumber": true,
+  "showUnsupportedFiles": false,
+  "showInlineTitle": false
+}
