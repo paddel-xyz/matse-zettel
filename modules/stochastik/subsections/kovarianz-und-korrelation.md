@@ -1,3 +1,0 @@
----
-title: Kovarianz und Korrelation
----
