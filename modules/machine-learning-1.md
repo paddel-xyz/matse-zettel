@@ -6,6 +6,40 @@ lecturers:
 authors:
   - pblan
   - tmwnd
+resources:
+  - title: The Elements of Statistical Learning
+    url: https://hastie.su.domains/Papers/ESLII.pdf
+    authors:
+      - T. Hastie
+      - R. Tibshirani
+      - J. Friedman
+    info:
+  - title: An Introduction to Statistical Learning
+    url: https://www.statlearning.com/
+    authors:
+      - G. James
+      - D. Witten
+      - T. Hastie
+      - R. Tibshirani
+    info:
+  - title: Pattern Recognition and Machine Learning (Bishop)
+    url: https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+    authors:
+      - C. M. Bishop
+    info:
+  - title: Learning from Data (Abu-Mostafa, Magdon-Ismail, Lin)
+    url: https://amlbook.com/
+    authors:
+      - Y. S. Abu-Mostafa
+      - M. Magdon-Ismail
+      - H.-T. Lin
+    info:
+  - title: Einführung in Machine Learning mit Python
+    url: http://www.digibib.net/permalink/A96/FHBA-x/HBZ:HT019495720
+    authors:
+      - A. C. Müller
+      - S. Guido
+    info: FH-VPN
 ---
 
 ![[grundbegriffe]]

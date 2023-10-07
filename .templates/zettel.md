@@ -4,6 +4,6 @@ type:
 aliases:
   -
 resources:
-  - url: 
-    title: 
+  - title: 
+    url: 
 ---

@@ -1,5 +1,5 @@
 ---
-title: Zielfuntion 
+title: Zielfunktion 
 type: definition
 aliases:
   - target function

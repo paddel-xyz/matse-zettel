@@ -4,8 +4,11 @@ semester:
 lecturers:
   -  
 resources:
-  - url: 
-    title: 
+  - title: 
+    url: 
+    authors:
+      -
+    info:
 authors:
   - 
 ---
