@@ -9,6 +9,7 @@ authors:
 resources:
   - title: The Elements of Statistical Learning
     url: https://hastie.su.domains/Papers/ESLII.pdf
+    type: book
     authors:
       - T. Hastie
       - R. Tibshirani
@@ -16,6 +17,7 @@ resources:
     info:
   - title: An Introduction to Statistical Learning
     url: https://www.statlearning.com/
+    type: book
     authors:
       - G. James
       - D. Witten
@@ -24,6 +26,7 @@ resources:
     info:
   - title: Pattern Recognition and Machine Learning (Bishop)
     url: https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+    type: book
     authors:
       - C. M. Bishop
     info:
@@ -36,10 +39,11 @@ resources:
     info:
   - title: Einführung in Machine Learning mit Python
     url: http://www.digibib.net/permalink/A96/FHBA-x/HBZ:HT019495720
+    type: book
     authors:
       - A. C. Müller
       - S. Guido
-    info: FH-VPN
+    info: Nur aus dem FH-Netz erreichbar
 ---
 
 ![[grundbegriffe]]
