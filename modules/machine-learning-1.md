@@ -32,6 +32,7 @@ resources:
     info:
   - title: Learning from Data (Abu-Mostafa, Magdon-Ismail, Lin)
     url: https://amlbook.com/
+    type: book
     authors:
       - Y. S. Abu-Mostafa
       - M. Magdon-Ismail
