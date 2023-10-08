@@ -24,13 +24,13 @@ resources:
       - T. Hastie
       - R. Tibshirani
     info:
-  - title: Pattern Recognition and Machine Learning (Bishop)
+  - title: Pattern Recognition and Machine Learning
     url: https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
     type: book
     authors:
       - C. M. Bishop
     info:
-  - title: Learning from Data (Abu-Mostafa, Magdon-Ismail, Lin)
+  - title: Learning from Data
     url: https://amlbook.com/
     type: book
     authors:
