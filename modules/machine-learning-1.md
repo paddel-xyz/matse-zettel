@@ -1,6 +1,6 @@
 ---
 title: Machine Learning I - Grundlagen und statistische Lerntheorie
-semester: Wintersemester 2023/2024
+semester: Wintersemester 2023/24
 lecturers:
   - Prof. Dr. rer. nat. Stephan Bialonski
 authors:

@@ -14,7 +14,10 @@ $$
 	h(\mathbf{x}) = \operatorname{sgn}(\mathbf{w}^T\mathbf{x}), \ \text{mit} \ w_0 = b, \, x_0 = 1
 $$
 
-```
+```tikz
+\begin{document}
+\usetikzlibrary{chains,shapes.geometric}
+\usetikzlibrary{arrows.meta,arrows}
 \begin{tikzpicture}[
             init/.style={
                     draw,
@@ -61,4 +64,5 @@ $$
 
         %\draw[decorate,decoration={brace,mirror}] (x1.north west) -- node[left=10pt] {Inputs} (x3.south west);
     \end{tikzpicture}
+\end{document}
 ```
