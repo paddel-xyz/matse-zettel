@@ -7,3 +7,5 @@ authors:
   - pblan
   - tmwnd
 ---
+
+![[mass-und-wahrscheinlichkeitsraeume]]
