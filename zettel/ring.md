@@ -7,9 +7,26 @@ resources:
     type: wikipedia
 ---
 
-Ringe und ihre Erweiterungen zu komplexeren Mengensystemen wie [[sigma-algebra|$\sigma$-Algebren]] spielen eine wichtige Rolle im axiomatischen Aufbau der Wahrscheinlichkeitstheorie und der Integrationstheorie.
+# Mengensysteme
 
-Ein Mengensystem $\mathcal{R} \subseteq \mathcal{P}(\Omega)$ heißt *Ring* auf $\Omega$, falls folgende EIgenschaften gelten:
-1. $\emptyset \in \mathcal{R}$
-2. $A, B \in \mathcal{R} \implies A \cap B^C \in \mathcal{R}$
-3. $A, B \in \mathcal{R} \implies A \cup B \in \mathcal{R}$
+Sei $\Omega$ eine beliebige Menge und $\mathcal{P}$  die [[potenzmenge|Potenzmenge]] dieser Menge.
+Ein nichtleeres [[mengensystem|Mengensystem]] $\mathcal{R} \subseteq \mathcal{P}(\Omega)$ heißt *Ring über $\Omega$*, wenn folgende Eigenschaften gelten:
+1. *Vereinigungsstabilität*:
+
+   $$
+   A, B \in \mathcal{R} \implies A \cup B \in \mathcal{R}
+  $$
+
+2. *Differenzstabilität*:
+   
+   $$
+   A, B \in \mathcal{R} \implies A \cap B^C \in \mathcal{R} \iff A \setminus B \in \mathcal{R}
+  $$
+  
+3. Aus der Differenzstabilität folgt direkt die *Existenz des Nullelements*:
+
+   $$
+   A \in \mathcal{R} \implies A \setminus A = \emptyset \in \mathcal{R}
+  $$
+
+# Algebra
