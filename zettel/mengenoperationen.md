@@ -37,6 +37,10 @@ Folgende Operationen sind definiert:
    A \times B := \{ (a, b) \mid a \in A, b \in B \}
    $$
    
+   $$
+   \bigtimes_{i \in I} = \{ (a_i)_{i \in I} \mid \forall i \in I : a_i \in A_i \}
+   $$
+   
 3. *Komplement*
    
    $$
