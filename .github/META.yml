@@ -1,0 +1,32 @@
+modules:
+  ml-1:
+    regex: "/.*ml-1.*/"
+    title: "Machine Learning 1: Grundlagen und statistische Lerntheorie"
+    labels: ["AMI M. Sc.", "Wahlmodul (M. Sc.)"]
+  ml-2:
+    regex: "/.*ml-2.*/"
+    title: "Machine Learning 2: Deep Learning"
+    labels: ["AMI M. Sc.", "Wahlmodul (M. Sc.)"]
+  sto-1:
+    regex: "/.*sto-1.*/"
+    title: "Stochastik 1"
+    labels: ["AMI M. Sc.", "Wahlmodul (M. Sc.)"]
+  muit:
+    regex: "/.*muit.*/"
+    title: "Maß- und Integrationstheorie"
+    labels: ["AMI M. Sc.", "Wahlmodul (M. Sc.)"]
+  nlp:
+    regex: "/.*nlp.*/"
+    title: "Natural Language Processing"
+    labels: ["AMI M. Sc.", "Wahlmodul (M. Sc.)"]
+
+content-types:
+  vorlesung:
+    regex: "/.*(vorlesung|lecture).*/"
+    labels: ["Module / Section"]
+  uebung:
+    regex: "/.*(übung|uebung|assignment).*/"
+    labels: ["Assignment"]
+  zettel:
+    regex: "/.*(zettel|block).*/"
+    labels: ["Zettel"]
