@@ -2,7 +2,7 @@ on:
   issues:
     types: [opened]
 
-inputs:
+env:
   modules:
     ml-1:
       regex: "/.*ml-1.*/"
@@ -24,7 +24,7 @@ inputs:
       regex: "/.*nlp.*/"
       title: "Natural Language Processing"
       labels: ["AMI M. Sc.", "Wahlmodul (M. Sc.)"]
-  content:
+  content-types:
     vorlesung:
       regex: "/.*(vorlesung|lecture).*/"
       labels: ["Module / Section"]
@@ -46,14 +46,14 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const inputs = {
-              modules: ${{ toJson(inputs.modules) }},
-              content: ${{ toJson(inputs.content) }}
+              modules: ${{ toJson(env.modules) }},
+              content-types: ${{ toJson(env.content-types) }}
             };
             const issue = context.issue;
             const title = issue.title.toLowerCase();
             const body = issue.body.toLowerCase();
             const labels = [];
-            for (const [content, contentData] of Object.entries(inputs.content)) {
+            for (const [content, contentData] of Object.entries(inputs.content-types)) {
               if (title.match(contentData.regex) || body.match(contentData.regex)) {
                 labels.push(...contentData.labels);
               }
@@ -88,13 +88,12 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const inputs = {
-              modules: ${{ toJson(inputs.modules) }},
-              content: ${{ toJson(inputs.content) }}
+              modules: ${{ toJson(env.modules) }},
             };
             const issue = context.issue;
             const title = issue.title.toLowerCase();
             const milestone = [];
-            for (const [module, moduleData] of Object.entries(inputs.modules)) {
+            for (const [module, moduleData] of Object.entries(env.modules)) {
               if (title.match(moduleData.regex)) {
                 milestone.push(moduleData.title);
               }
