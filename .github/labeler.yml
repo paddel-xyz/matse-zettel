@@ -10,12 +10,14 @@
   - "/muit/i"
 "Natural Language Processing":
   - "/nlp/i"
+"Numerik für Maschinelles Lernen":
+  - "/num-ml/i"
 
 "AMI M. Sc.":
-  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp)/i"
+  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp|num-ml)/i"
 
 "Wahlmodul (M. Sc.)":
-  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp)/i"
+  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp|num-ml)/i"
 
 "Zettel":
   - "/zettel/i"
