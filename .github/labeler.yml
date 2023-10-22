@@ -12,20 +12,10 @@
   - "nlp"
 
 "AMI M. Sc.":
-  - "ml-1"
-  - "ml-2"
-  - "sto-1"
-  - "sto-2"
-  - "muit"
-  - "nlp"
+  - "(ml-1|ml-2|sto-1|sto-2|muit|nlp)"
 
 "Wahlmodule (M. Sc.)":
-  - "ml-1"
-  - "ml-2"
-  - "sto-1"
-  - "sto-2"
-  - "muit"
-  - "nlp"
+  - "(ml-1|ml-2|sto-1|sto-2|muit|nlp)"
 
 "Zettel":
   - "zettel"
