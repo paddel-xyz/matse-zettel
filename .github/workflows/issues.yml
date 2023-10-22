@@ -1,93 +1,19 @@
+name: "Issue Labeler"
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+permissions:
+  issues: write
+  contents: read
 
 jobs:
-  # Apply labels based on the title of the issue
-  # Uses above defined inputs
-  apply-label:
+  triage:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            try {
-              const fs = require("fs");
-              const jsonString = fs.readFileSync("./.github/meta.json")
-              var inputs = JSON.parse(jsonString);
-            } catch (e) {
-              core.setFailed(e.message);
-            }
-
-            const issue = context.issue;
-            const title = issue.title;
-            const body = issue.body;
-            const labels = [];
-            for (const [content, contentData] of Object.entries(inputs.content)) {
-              if (title.match(contentData.regex) || body.match(contentData.regex)) {
-                labels.push(...contentData.labels);
-              }
-            }
-            if (labels.length > 0) {
-              await github.rest.issues.addLabels({
-                ...context.repo,
-                issue_number: issue.number,
-                labels: labels
-              });
-            }
-            for (const [module, moduleData] of Object.entries(inputs.modules)) {
-              if (title.match(moduleData.regex) || body.match(moduleData.regex)) {
-                labels.push(...moduleData.labels);
-              }
-            }
-            if (labels.length > 0) {
-              await github.rest.issues.addLabels({
-                ...context.repo,
-                issue_number: issue.number,
-                labels: labels
-              });
-            }
-
-  # Apply milestone based on the title of the issue
-  # Uses above defined inputs and searches for open milestones with the same name as the label
-  apply-milestone:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/github-script@v6
-        with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            try {
-              const fs = require("fs");
-              const jsonString = fs.readFileSync("./.github/meta.json")
-              var inputs = JSON.parse(jsonString);
-            } catch (e) {
-              core.setFailed(e.message);
-            }
-            const issue = context.issue;
-            const title = issue.title;
-            const milestone = [];
-            for (const [module, moduleData] of Object.entries(inputs.modules)) {
-              if (title.match(moduleData.regex)) {
-                milestone.push(moduleData.title);
-              }
-            }
-            if (milestone.length > 0) {
-              const milestones = await github.rest.issues.listMilestones({
-                ...context.repo,
-                state: "open"
-              });
-              for (const milestoneData of milestones.data) {
-                if (milestoneData.title === milestone[0]) {
-                  await github.rest.issues.update({
-                    ...context.repo,
-                    issue_number: issue.number,
-                    milestone: milestoneData.number
-                  });
-                }
-              }
-            }
+    - uses: github/issue-labeler@v3.2
+      with:
+        configuration-path: .github/labeler.yml
+        repo-token: ${{ github.token }}
+        include-title: 1
+        include-body: 0
