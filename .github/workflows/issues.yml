@@ -71,7 +71,7 @@ jobs:
             const issue = context.issue;
             const title = issue.title;
             const milestone = [];
-            for (const [module, moduleData] of Object.entries(env.modules)) {
+            for (const [module, moduleData] of Object.entries(inputs.modules)) {
               if (title.match(moduleData.regex)) {
                 milestone.push(moduleData.title);
               }
