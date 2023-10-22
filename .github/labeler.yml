@@ -1,23 +1,81 @@
-"Machine Learning 1: Grundlagen und statistische Lerntheorie":
-  - "/ml-1/i"
-"Machine Learning 2: Deep Learning":
-  - "/ml-2/i"
-"Stochastik 1":
-  - "/sto-1/i"
-"Stochastik 2":
-  - "/sto-2/i"
-"Maß- und Integrationstheorie":
-  - "/muit/i"
-"Natural Language Processing":
-  - "/nlp/i"
-"Numerik für Maschinelles Lernen":
-  - "/num-ml/i"
+"Agile Software Factory (M. Sc.)":
+  - "/\[asf\]/i"
+"Algorithmen und Datenstrukturen":
+  - "/\[algo\]/i"
+"Analysis 1":
+  - "/\[ana-1\]/i"
+"Analysis 2":
+  - "/\[ana-2\]/i"
+"Datenbanken":
+  - "/\[db\]/i"
+"Digitale Bildverarbeitung (M. Sc.)":
+  - "/\[dbv\]/i"
+"IT-Grundlagen":
+  - "/\[itg\]/i"
+"Java Blockkurs":
+  - "/\[java\]/i"
+"Kommunikationssysteme":
+  - "/\[kosy\]/i"
+"Lineare Algebra 1":
+  - "/\[la-1\]/i"
+"Lineare Algebra 2":
+  - "/\[la-2\]/i"
+"Machine Learning":
+  - "/\[ml\]/i"
+"Machine Learning 1: Grundlagen und statistische Lerntheorie (M. Sc.)":
+  - "/\[ml-1\]/i"
+"Machine Learning 2: Deep Learning (M. Sc.)":
+  - "/\[ml-2\]/i"
+"Mathe Grundlagen":
+  - "/\[mg\]/i"
+"Maß- und Integrationstheorie (M. Sc.)":
+  - "/\[muit\]/i"
+"Mikrocontrollertechnik":
+  - "/\[mct\]/i"
+"Natural Language Processing (M. Sc.)":
+  - "/\[nlp\]/i"
+"Numerik 1":
+  - "/\[num-1\]/i"
+"Numerik 2":
+  - "/\[num-2\]/i"
+"Numerik für Maschinelles Lernen (M. Sc.)":
+  - "/\[num-ml\]/i"
+"Parallele Rechnerarchitekturen (M. Sc.)":
+  - "/\[para\]/i"
+"Softwaretechnik":
+  - "/\[swt\]/i"
+"Stochastik":
+  - "/\[sto\]/i"
+"Stochastik 1 (M. Sc.)":
+  - "/\[sto-1\]/i"
+"Stochastik 2 (M. Sc.)":
+  - "/\[sto-2\]/i"
+"Web-Engineering und Internettechnologien":
+  - "/\[web\]/i"
+
+"AMI B. Sc.":
+  - "/\[(algo|ana-1|ana-2|db|itg|java|kosy|la-1|la-2|ml|mg|mct|num-1|swt|sto|web)\]/i"
+
+"1. Semester (B. Sc.)":
+  - "/\[(ana-1|la-1|itg|java|mg)\]/i"
+
+"2. Semester (B. Sc.)":
+  - "/\[(algo|ana-2|la-2)\]/i"
+
+"3. Semester (B. Sc.)":
+  - "/\[(db|swt|sto)\]/i"
+
+"4. Semester (B. Sc.)":
+  - "/\[(kosy|num-1|web)\]/i"
+
+"Wahlmodul (B. Sc.)":
+  - "/\[(ml|mct)\]/i"
 
 "AMI M. Sc.":
-  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp|num-ml)/i"
+  - "/\[(asf|dbv|ml-1|ml-2|muit|nlp|num-ml|para|sto-1|sto-2)\]/i"
 
 "Wahlmodul (M. Sc.)":
-  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp|num-ml)/i"
+  - "/\[(asf|dbv|ml-1|ml-2|muit|nlp|num-ml|para|sto-1|sto-2)\]/i"
 
 "Zettel":
   - "/zettel/i"
