@@ -17,10 +17,8 @@ jobs:
           script: |
             try {
               const fs = require("fs");
-              const yaml = require("js-yaml");
-              const fileContents = fs.readFileSync(".github/META.yml", "utf8");
-              const inputs = yaml.load(fileContents);
-              return inputs;
+              const jsonFileContents = fs.readFileSync(".github/meta.json")
+              var inputs = JSON.parse(jsonFileContents);
             } catch (e) {
               core.setFailed(e.message);
             }
@@ -65,10 +63,8 @@ jobs:
           script: |
             try {
               const fs = require("fs");
-              const yaml = require("js-yaml");
-              const fileContents = fs.readFileSync(".github/META.yml", "utf8");
-              const inputs = yaml.load(fileContents);
-              return inputs;
+              const jsonFileContents = fs.readFileSync(".github/meta.json")
+              var inputs = JSON.parse(jsonFileContents);
             } catch (e) {
               core.setFailed(e.message);
             }
