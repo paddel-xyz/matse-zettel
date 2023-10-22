@@ -17,8 +17,7 @@ jobs:
           script: |
             try {
               const fs = require("fs");
-              console.log(process.cwd());
-              const jsonString = fs.readFileSync("../meta.json")
+              const jsonString = fs.readFileSync("./.github/meta.json")
               var inputs = JSON.parse(jsonString);
             } catch (e) {
               core.setFailed(e.message);
@@ -64,8 +63,7 @@ jobs:
           script: |
             try {
               const fs = require("fs");
-              console.log(process.cwd());
-              const jsonString = fs.readFileSync("../meta.json")
+              const jsonString = fs.readFileSync("./.github/meta.json")
               var inputs = JSON.parse(jsonString);
             } catch (e) {
               core.setFailed(e.message);
