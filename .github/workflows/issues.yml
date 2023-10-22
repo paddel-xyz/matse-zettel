@@ -18,3 +18,12 @@ jobs:
         enable-versioned-regex: 0
         include-title: 1
         include-body: 0
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/add-to-project@0.5.0
+        with:
+          project-url: https://github.com/orgs/paddel-xyz/projects/4
+          github-token: ${{ secrets.ADD_TO_PROJECT_PAT }}
+          labeled: AMI M. Sc.
+          label-operator: OR
