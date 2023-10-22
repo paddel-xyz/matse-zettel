@@ -1,27 +1,27 @@
 "Machine Learning 1: Grundlagen und statistische Lerntheorie":
-  - "ml-1"
+  - "/ml-1/i"
 "Machine Learning 2: Deep Learning":
-  - "ml-2"
+  - "/ml-2/i"
 "Stochastik 1":
-  - "sto-1"
+  - "/sto-1/i"
 "Stochastik 2":
-  - "sto-2"
+  - "/sto-2/i"
 "Maß- und Integrationstheorie":
-  - "muit"
+  - "/muit/i"
 "Natural Language Processing":
-  - "nlp"
+  - "/nlp/i"
 
 "AMI M. Sc.":
-  - "(ml-1|ml-2|sto-1|sto-2|muit|nlp)"
+  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp)/i"
 
-"Wahlmodule (M. Sc.)":
-  - "(ml-1|ml-2|sto-1|sto-2|muit|nlp)"
+"Wahlmodul (M. Sc.)":
+  - "/(ml-1|ml-2|sto-1|sto-2|muit|nlp)/i"
 
 "Zettel":
-  - "zettel"
+  - "/zettel/i"
 
 "Assignment":
-  - "(assignment|uebung|übung|blatt|sheet)"
+  - "/(assignment|uebung|übung|blatt|sheet)/i"
 
 "Module / Section":
-  - "(vorlesung|lecture|module|section|modul|kapitel|chapter)"
+  - "/(vorlesung|lecture|module|section|modul|kapitel|chapter)/i"
