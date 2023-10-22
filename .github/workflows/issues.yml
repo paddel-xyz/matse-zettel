@@ -26,8 +26,8 @@ jobs:
             }
 
             const issue = context.issue;
-            const title = issue.title.toLowerCase();
-            const body = issue.body.toLowerCase();
+            const title = issue.title;
+            const body = issue.body;
             const labels = [];
             for (const [content, contentData] of Object.entries(inputs.content)) {
               if (title.match(contentData.regex) || body.match(contentData.regex)) {
@@ -73,7 +73,7 @@ jobs:
               core.setFailed(e.message);
             }
             const issue = context.issue;
-            const title = issue.title.toLowerCase();
+            const title = issue.title;
             const milestone = [];
             for (const [module, moduleData] of Object.entries(env.modules)) {
               if (title.match(moduleData.regex)) {
