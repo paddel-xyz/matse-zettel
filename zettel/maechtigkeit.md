@@ -4,7 +4,6 @@ type:
 aliases:
 ---
 
-
 Sein $A$ und $B$ zwei Mengen:
 1. $A$, $B$ heißen *gleichmächtig*, $A \sim B$, wenn es eine bijektive Abbildung von $A$ nach $B$ gibt.
 2. $A$ heißt *abzählbar endlich*, wenn $A$ endlich viele Elemente enthält.
